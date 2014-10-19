@@ -1,7 +1,18 @@
+body{
+	 font-family: Arial, Helvetica, sans-serif;
+	 color: #252525;
+	 background: #f1f1f1;
+}
+
 .col-bg-grey {
 	border-radius: 10px;
 	background-color:#ebebeb;
 	padding-left:5px;
+}
+
+h2{
+		line-height: 2.3em;
+
 }
 
 .map{
@@ -14,4 +25,21 @@
 	background-color:#ebebef;
 	border-radius:10px;
 	padding-left: 5px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 4px 12px;
+	line-height: 1.2em;
+	width: 100px
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
 }
